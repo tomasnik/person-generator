@@ -1,11 +1,11 @@
 import './App.css';
-import Avatar from "./components/Avatar/Avatar"
+import AvatarBuilder from "./components/AvatarBuilder/AvatarBuilder"
 
 function App() {
     return (
         <div className="App">
             <h1>Hello</h1>
-            <Avatar/>
+            <AvatarBuilder />
         </div>
     );
 }
